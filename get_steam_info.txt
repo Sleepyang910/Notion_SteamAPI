@@ -19,8 +19,8 @@ from http import cookiejar
 '''
 重要！在下面两行替换为你的 Steam API 密钥和 Steam ID
 '''
-STEAM_API_KEY = "此处替换Steam API 密钥，保留双引号"
-STEAM_ID = "此处替换17位Steam ID，保留双引号"
+STEAM_API_KEY = "6DD2823D2FCC877E350CCE89F24C1D05"
+STEAM_ID = "76561197960287930"
 
 ##########################################################################
 
@@ -235,4 +235,5 @@ def export_to_csv(games, filename="steam_games_info.csv"):
 if __name__ == "__main__":
     games = get_steam_games()
     export_to_csv(games)
+
     print("操作完成！")
